@@ -17,6 +17,14 @@
 @property (weak, nonatomic) IBOutlet UIButton *NB1P;
 @property (weak, nonatomic) IBOutlet UIImageView *img1;
 @property (weak, nonatomic) IBOutlet UIImageView *img2;
+@property (weak, nonatomic) IBOutlet UIImageView *img3;
+@property (weak, nonatomic) IBOutlet UIImageView *img4;
+@property (weak, nonatomic) IBOutlet UIImageView *img5;
+@property (weak, nonatomic) IBOutlet UIImageView *img6;
+@property (weak, nonatomic) IBOutlet UIImageView *img7;
+@property (weak, nonatomic) IBOutlet UIImageView *img8;
+@property (weak, nonatomic) IBOutlet UIImageView *img9;
+@property (weak, nonatomic) IBOutlet UIImageView *img10;
 - (IBAction)B1Pr:(id)sender;
 - (IBAction)NB1Pr:(id)sender;
 - (IBAction)B2Pr:(id)sender;

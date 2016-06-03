@@ -272,9 +272,9 @@
                                             <action selector="NB9Pr:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DyU-Wc-XDF"/>
                                         </connections>
                                     </button>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="0sT-xi-vo4">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="uPP-qG-aw1">
                                         <rect key="frame" x="270" y="690" width="50" height="50"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <autoresizingMask key="autoresizingMask"/>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="r8.jpg" id="WTb-JM-xW7">
                                         <rect key="frame" x="18" y="755" width="120" height="80"/>
@@ -300,9 +300,9 @@
                                             <action selector="NB10Pr:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xD0-v6-VE2"/>
                                         </connections>
                                     </button>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="uPP-qG-aw1">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="0sT-xi-vo4">
                                         <rect key="frame" x="270" y="770" width="50" height="50"/>
-                                        <autoresizingMask key="autoresizingMask"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Finish" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="wSn-0G-PoS">
                                         <rect key="frame" x="129" y="905" width="63" height="49"/>
@@ -325,7 +325,15 @@
                         <outlet property="Next" destination="wSn-0G-PoS" id="WRS-X7-0ga"/>
                         <outlet property="Scrollview" destination="TBP-NG-Gj8" id="IW5-lg-Rn3"/>
                         <outlet property="img1" destination="RxQ-VV-9FV" id="STd-oF-NCq"/>
+                        <outlet property="img10" destination="0sT-xi-vo4" id="ffZ-Nc-sQg"/>
                         <outlet property="img2" destination="jAG-6k-Bwx" id="sBT-z9-RuE"/>
+                        <outlet property="img3" destination="G18-nc-dg3" id="B7e-2G-XbP"/>
+                        <outlet property="img4" destination="9Ro-PT-3Xg" id="55g-W6-HNW"/>
+                        <outlet property="img5" destination="M6P-pW-PET" id="C18-Zm-IAW"/>
+                        <outlet property="img6" destination="gIm-18-IIl" id="j0C-9D-4nd"/>
+                        <outlet property="img7" destination="S4T-ir-Urt" id="Zaj-QP-AiS"/>
+                        <outlet property="img8" destination="YOX-Iy-8qY" id="ImV-tR-KKK"/>
+                        <outlet property="img9" destination="uPP-qG-aw1" id="bVe-rd-ZwC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
