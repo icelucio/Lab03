@@ -14,6 +14,9 @@
 		65553F2E1CFFC18D003C8B73 /* Lab03.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65553F2C1CFFC18D003C8B73 /* Lab03.xcdatamodeld */; };
 		65553F301CFFC18D003C8B73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65553F2F1CFFC18D003C8B73 /* Assets.xcassets */; };
 		65553F331CFFC18D003C8B73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65553F311CFFC18D003C8B73 /* LaunchScreen.storyboard */; };
+		656165B51D02342300FE9276 /* Japproves.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 656165B21D02342300FE9276 /* Japproves.jpg */; };
+		656165B61D02342300FE9276 /* Jloser.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 656165B31D02342300FE9276 /* Jloser.jpg */; };
+		656165B71D02342300FE9276 /* Jnotbab.png in Resources */ = {isa = PBXBuildFile; fileRef = 656165B41D02342300FE9276 /* Jnotbab.png */; };
 		656A12341D00FD7900B1E925 /* 918spyder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 656A12321D00FD7900B1E925 /* 918spyder.jpg */; };
 		656A12351D00FD7900B1E925 /* amggt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 656A12331D00FD7900B1E925 /* amggt.jpg */; };
 		656A12371D00FD8500B1E925 /* aventador.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 656A12361D00FD8500B1E925 /* aventador.jpg */; };
@@ -40,6 +43,9 @@
 		65553F2F1CFFC18D003C8B73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65553F321CFFC18D003C8B73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65553F341CFFC18D003C8B73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		656165B21D02342300FE9276 /* Japproves.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Japproves.jpg; sourceTree = "<group>"; };
+		656165B31D02342300FE9276 /* Jloser.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jloser.jpg; sourceTree = "<group>"; };
+		656165B41D02342300FE9276 /* Jnotbab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Jnotbab.png; sourceTree = "<group>"; };
 		656A12321D00FD7900B1E925 /* 918spyder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 918spyder.jpg; sourceTree = "<group>"; };
 		656A12331D00FD7900B1E925 /* amggt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = amggt.jpg; sourceTree = "<group>"; };
 		656A12361D00FD8500B1E925 /* aventador.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aventador.jpg; sourceTree = "<group>"; };
@@ -126,6 +132,9 @@
 		656A12311D00F7B600B1E925 /* Pictures */ = {
 			isa = PBXGroup;
 			children = (
+				656165B21D02342300FE9276 /* Japproves.jpg */,
+				656165B31D02342300FE9276 /* Jloser.jpg */,
+				656165B41D02342300FE9276 /* Jnotbab.png */,
 				656A12481D01081400B1E925 /* incorrect.png */,
 				656A12461D01080E00B1E925 /* correct.jpg */,
 				656A12421D00FDA400B1E925 /* one.jpg */,
@@ -201,10 +210,12 @@
 			files = (
 				656A12451D00FDA400B1E925 /* r8.jpg in Resources */,
 				656A12441D00FDA400B1E925 /* one.jpg in Resources */,
+				656165B61D02342300FE9276 /* Jloser.jpg in Resources */,
 				656A12471D01080E00B1E925 /* correct.jpg in Resources */,
 				656A12401D00FD9900B1E925 /* Laferrari.jpg in Resources */,
 				656A12351D00FD7900B1E925 /* amggt.jpg in Resources */,
 				65553F331CFFC18D003C8B73 /* LaunchScreen.storyboard in Resources */,
+				656165B51D02342300FE9276 /* Japproves.jpg in Resources */,
 				656A12411D00FD9900B1E925 /* LFA.jpg in Resources */,
 				656A123D1D00FD8F00B1E925 /* granturismomcs.jpg in Resources */,
 				656A123C1D00FD8F00B1E925 /* exige.jpg in Resources */,
@@ -213,6 +224,7 @@
 				656A12341D00FD7900B1E925 /* 918spyder.jpg in Resources */,
 				656A123B1D00FD8F00B1E925 /* corvette.jpg in Resources */,
 				65553F301CFFC18D003C8B73 /* Assets.xcassets in Resources */,
+				656165B71D02342300FE9276 /* Jnotbab.png in Resources */,
 				65553F2B1CFFC18D003C8B73 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

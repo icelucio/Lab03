@@ -307,9 +307,31 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="OPH-Tk-4VN">
                                         <rect key="frame" x="138" y="900" width="46" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <state key="normal" title="Button"/>
+                                        <state key="normal" title="Done">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
                                         <connections>
-                                            <segue destination="5jB-RX-NeF" kind="modal" id="cOF-ok-bhP"/>
+                                            <segue destination="jo3-sc-FEp" kind="modal" id="xhy-js-0m2"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="xOm-WR-WTg">
+                                        <rect key="frame" x="138" y="900" width="46" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Done">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="N8f-Dd-Hdm" kind="modal" id="NmZ-pi-KNS"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="bR1-8Z-gLN">
+                                        <rect key="frame" x="137" y="900" width="46" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Done">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="iW6-ip-QBe" kind="modal" id="qTl-Ip-ofE"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -331,6 +353,7 @@
                         <outlet property="B8P" destination="xTu-N6-ZXE" id="7hc-kH-Euh"/>
                         <outlet property="B9P" destination="FKz-FC-pvG" id="SI8-tr-9R2"/>
                         <outlet property="Header" destination="zNR-Ou-ijT" id="IJp-c1-lOo"/>
+                        <outlet property="Loser" destination="OPH-Tk-4VN" id="OJJ-Ko-cqA"/>
                         <outlet property="NB10P" destination="6IK-cp-r44" id="8f0-uv-p9N"/>
                         <outlet property="NB1P" destination="Z2T-Nv-b7g" id="Wc5-Pn-Mub"/>
                         <outlet property="NB2P" destination="D4i-p7-xXG" id="t6L-ym-gLe"/>
@@ -341,7 +364,9 @@
                         <outlet property="NB7P" destination="dxH-nV-6Qh" id="tOu-ud-qmo"/>
                         <outlet property="NB8P" destination="J9R-yQ-Jf0" id="0bF-35-bsd"/>
                         <outlet property="NB9P" destination="1bK-bo-K3V" id="J4u-HO-EXA"/>
+                        <outlet property="Notbad" destination="xOm-WR-WTg" id="QzI-dW-Bv2"/>
                         <outlet property="Scrollview" destination="TBP-NG-Gj8" id="IW5-lg-Rn3"/>
+                        <outlet property="Winner" destination="bR1-8Z-gLN" id="MGS-98-cWh"/>
                         <outlet property="img1" destination="RxQ-VV-9FV" id="STd-oF-NCq"/>
                         <outlet property="img10" destination="0sT-xi-vo4" id="ffZ-Nc-sQg"/>
                         <outlet property="img2" destination="jAG-6k-Bwx" id="sBT-z9-RuE"/>
@@ -359,31 +384,71 @@
             <point key="canvasLocation" x="149" y="271"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="CXZ-mZ-Jao">
+        <scene sceneID="Ath-Pg-1E6">
             <objects>
-                <viewController id="5jB-RX-NeF" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="ph2-M8-HJv">
+                <viewController id="iW6-ip-QBe" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cdn-Ed-HXH">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5kp-6R-Frb">
-                                <rect key="frame" x="131" y="50" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Japproves.jpg" id="iUB-ll-ysz">
+                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="BPB-ks-4Ql" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Hw1-rO-11a" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="504" y="380"/>
+            <point key="canvasLocation" x="497" y="812"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="1Pb-cW-tEY">
+            <objects>
+                <viewController id="N8f-Dd-Hdm" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dO8-fs-dRr">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Jnotbab.png" id="g0G-4T-ojK">
+                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qyn-bp-StH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="538" y="168"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="0Ig-fI-AfM">
+            <objects>
+                <viewController id="jo3-sc-FEp" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gaE-Ns-NaS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Jloser.jpg" id="F6r-ss-hE9">
+                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="j4c-D8-ZxK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="538" y="-445"/>
         </scene>
     </scenes>
     <resources>
         <image name="918spyder.jpg" width="623" height="319"/>
+        <image name="Japproves.jpg" width="352" height="259"/>
+        <image name="Jloser.jpg" width="600" height="330"/>
+        <image name="Jnotbab.png" width="375" height="360"/>
         <image name="LFA.jpg" width="967" height="460"/>
         <image name="Laferrari.jpg" width="2300" height="1012"/>
         <image name="amggt.jpg" width="318" height="159"/>

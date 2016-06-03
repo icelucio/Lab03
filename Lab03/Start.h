@@ -12,7 +12,6 @@
 @property (weak, nonatomic) IBOutlet UIScrollView *Scrollview;
 
 @property (weak, nonatomic) IBOutlet UILabel *Header;
-@property (weak, nonatomic) IBOutlet UILabel *Next;
 @property (weak, nonatomic) IBOutlet UIButton *B1P;
 @property (weak, nonatomic) IBOutlet UIButton *NB1P;
 @property (weak, nonatomic) IBOutlet UIButton *B2P;
@@ -33,6 +32,9 @@
 @property (weak, nonatomic) IBOutlet UIButton *NB9P;
 @property (weak, nonatomic) IBOutlet UIButton *B10P;
 @property (weak, nonatomic) IBOutlet UIButton *NB10P;
+@property (weak, nonatomic) IBOutlet UIButton *Loser;
+@property (weak, nonatomic) IBOutlet UIButton *Notbad;
+@property (weak, nonatomic) IBOutlet UIButton *Winner;
 @property (weak, nonatomic) IBOutlet UIImageView *img1;
 @property (weak, nonatomic) IBOutlet UIImageView *img2;
 @property (weak, nonatomic) IBOutlet UIImageView *img3;
