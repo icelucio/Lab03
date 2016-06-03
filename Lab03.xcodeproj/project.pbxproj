@@ -24,6 +24,8 @@
 		656A12411D00FD9900B1E925 /* LFA.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 656A123F1D00FD9900B1E925 /* LFA.jpg */; };
 		656A12441D00FDA400B1E925 /* one.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 656A12421D00FDA400B1E925 /* one.jpg */; };
 		656A12451D00FDA400B1E925 /* r8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 656A12431D00FDA400B1E925 /* r8.jpg */; };
+		656A12471D01080E00B1E925 /* correct.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 656A12461D01080E00B1E925 /* correct.jpg */; };
+		656A12491D01081400B1E925 /* incorrect.png in Resources */ = {isa = PBXBuildFile; fileRef = 656A12481D01081400B1E925 /* incorrect.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +50,8 @@
 		656A123F1D00FD9900B1E925 /* LFA.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LFA.jpg; sourceTree = "<group>"; };
 		656A12421D00FDA400B1E925 /* one.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = one.jpg; sourceTree = "<group>"; };
 		656A12431D00FDA400B1E925 /* r8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = r8.jpg; sourceTree = "<group>"; };
+		656A12461D01080E00B1E925 /* correct.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = correct.jpg; sourceTree = "<group>"; };
+		656A12481D01081400B1E925 /* incorrect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = incorrect.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +126,8 @@
 		656A12311D00F7B600B1E925 /* Pictures */ = {
 			isa = PBXGroup;
 			children = (
+				656A12481D01081400B1E925 /* incorrect.png */,
+				656A12461D01080E00B1E925 /* correct.jpg */,
 				656A12421D00FDA400B1E925 /* one.jpg */,
 				656A12431D00FDA400B1E925 /* r8.jpg */,
 				656A123E1D00FD9900B1E925 /* Laferrari.jpg */,
@@ -195,6 +201,7 @@
 			files = (
 				656A12451D00FDA400B1E925 /* r8.jpg in Resources */,
 				656A12441D00FDA400B1E925 /* one.jpg in Resources */,
+				656A12471D01080E00B1E925 /* correct.jpg in Resources */,
 				656A12401D00FD9900B1E925 /* Laferrari.jpg in Resources */,
 				656A12351D00FD7900B1E925 /* amggt.jpg in Resources */,
 				65553F331CFFC18D003C8B73 /* LaunchScreen.storyboard in Resources */,
@@ -202,6 +209,7 @@
 				656A123D1D00FD8F00B1E925 /* granturismomcs.jpg in Resources */,
 				656A123C1D00FD8F00B1E925 /* exige.jpg in Resources */,
 				656A12371D00FD8500B1E925 /* aventador.jpg in Resources */,
+				656A12491D01081400B1E925 /* incorrect.png in Resources */,
 				656A12341D00FD7900B1E925 /* 918spyder.jpg in Resources */,
 				656A123B1D00FD8F00B1E925 /* corvette.jpg in Resources */,
 				65553F301CFFC18D003C8B73 /* Assets.xcassets in Resources */,
