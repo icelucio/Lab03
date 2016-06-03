@@ -43,6 +43,50 @@
 }
 
 - (IBAction)B3Pr:(id)sender {
-    self.Header.text = @"no mames";
+}
+
+- (IBAction)NB3Pr:(id)sender {
+}
+
+- (IBAction)B4Pr:(id)sender {
+}
+
+- (IBAction)NB4Pr:(id)sender {
+}
+
+- (IBAction)B5Pr:(id)sender {
+}
+
+- (IBAction)NB5Pr:(id)sender {
+}
+
+- (IBAction)B6Pr:(id)sender {
+}
+
+- (IBAction)NB6Pr:(id)sender {
+}
+
+- (IBAction)B7Pr:(id)sender {
+}
+
+- (IBAction)NB7Pr:(id)sender {
+}
+
+- (IBAction)B8Pr:(id)sender {
+}
+
+- (IBAction)NB8Pr:(id)sender {
+}
+
+- (IBAction)B9Pr:(id)sender {
+}
+
+- (IBAction)NB9Pr:(id)sender {
+}
+
+- (IBAction)B10Pr:(id)sender {
+}
+
+- (IBAction)NB10Pr:(id)sender {
 }
 @end
