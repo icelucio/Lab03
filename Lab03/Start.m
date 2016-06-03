@@ -16,6 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self.Scrollview setScrollEnabled:YES];
+    [self.Scrollview setContentSize:CGSizeMake(320,1000)];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -24,4 +26,6 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)B1Pr:(id)sender {
+}
 @end
